@@ -1,12 +1,8 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    font-family: Arial;
-}
-
-header{
-    background-color: black;
+    font-family: Ubuntu;
 }
 
 main{
@@ -16,9 +12,9 @@ main{
 .navbar{
     width: 100%;
     background-color: black;
-    /*position: fixed;
-    top: 0;*/
     margin-bottom: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .navbar ul{
@@ -71,6 +67,42 @@ footer a:hover{
     
     color: greenyellow;
     transition: color 0.5s;
+}
+
+.form-container {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black; 
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 15px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: yellowgreen;
+    color: black;
+    transition: color 0.5s, background-color 0.5s;
 }
 
 @media screen and (max-width:600px){
